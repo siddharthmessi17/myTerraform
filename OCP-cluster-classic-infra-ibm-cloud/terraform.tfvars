@@ -1,0 +1,10 @@
+ibmcloud_api_key = "" #Add your IBM Cloud apikey
+rg_name          = "demo-resource-group"
+cluster_name     = "demo-openshift-cluster"
+zone             = "dal10"
+worker_count     = 3
+worker_flavor    = "b3c.16x64"
+hardware_type    = "shared"
+kube_version     = "4.7.30_openshift"
+public_vlan_id   = "3157320"
+private_vlan_id  = "3157322"
