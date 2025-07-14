@@ -1,4 +1,6 @@
-# Execution steps
+# OCP Cluster Classic Infra on IBM Cloud
+
+This document explains how to create an Openshift Cluster of Classic Infra type on IBM Cloud using terraform.
 
 1. Fetch the latest provider info for ibm-cloud and update the `main.tf` file provider section. Refer - https://registry.terraform.io/providers/IBM-Cloud/ibm/latest for latest version and info for the provider.
 2. Update the `terraform.tfvars` file with appropriate variables. Refer - https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/container_cluster
