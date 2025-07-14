@@ -6,5 +6,5 @@ worker_count     = 3
 worker_flavor    = "b3c.16x64"
 hardware_type    = "shared"
 kube_version     = "4.7.30_openshift"
-public_vlan_id   = "3157320"
-private_vlan_id  = "3157322"
+public_vlan_id   = "xxxxx" # https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/container_cluster#public_vlan_id-1
+private_vlan_id  = "xxxxx" # https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/container_cluster#private_vlan_id-1
